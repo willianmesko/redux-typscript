@@ -1,5 +1,5 @@
-import { createStore, applyMiddleware, Middleware, Reducer } from 'redux';
-import { AuthAction, AuthState } from './modules/auth/types';
+import { createStore, applyMiddleware, Middleware, Reducer } from "redux";
+import { AuthAction, AuthState } from "./modules/auth/types";
 
 export interface StoreState {
   auth: AuthState;
